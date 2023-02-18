@@ -1,0 +1,137 @@
+/* Part 1, background color for inside & outside container*/
+* {
+	margin: 0;
+}
+
+body {
+	background-color: #333;
+}
+
+.Container {
+	background-color: #333;
+	display: flex;
+	margin-top: 10px;
+}
+
+/* Part 2: Branch Style, Branch Size & Display*/
+.Branch_1 {
+	height: 620px;
+	width: 400px;
+	flex-wrap: wrap;
+	display: flex;
+}
+
+.Branch_2 {
+	height: 620px;
+	width: 400px;
+	flex-wrap: wrap;
+	display: flex;
+}
+
+.Branch_3 {
+	height: 620px;
+	width: 400px;
+	flex-wrap: wrap;
+	display: flex;
+}
+/* Part 3: Object style*/
+
+/* Part 3: Object style*/
+.Object_1:nth-child(even),
+.Object_2:nth-child(even),
+.Object_3:nth-child(even) {
+	display: grid;
+	grid-template-columns: 230px 100px;
+	grid-template-rows: 50px 50px;
+	background-color: #333;
+	width: 300px;
+	padding-top: 4px;
+	padding-left: 4px;
+}
+
+.Object_1:nth-child(odd),
+.Object_2:nth-child(odd),
+.Object_3:nth-child(odd) {
+	display: grid;
+	grid-template-columns: 230px 100px;
+	grid-template-rows: 50px 50px;
+	background-color: #333; /* Dark gray background color */
+	width: 300px;
+	padding-top: 4px;
+	padding-left: 4px;
+}
+
+.Name_Forward {
+	display: flex;
+	align-items: center;
+	width: 200px;
+	height: 40px;
+	font-size: 20px;
+	border-radius: 4px;
+	background-color: #333; /* Light gray background color /
+color: #292929; / Dark gray font color */
+}
+
+/* Part 4: Match data sizes*/
+select {
+	width: 40px;
+	height: 40px;
+	font-size: 20px;
+	border-radius: 4px;
+	color: #333; /* Light gray font color /
+background-color: #1c1c1c; / Darker gray background color */
+}
+
+select.Name {
+	width: 210px;
+	height: 40px;
+	font-size: 20px;
+	border-radius: 4px;
+	color: #333; /* Light gray font color /
+background-color: #1c1c1c; / Darker gray background color */
+}
+
+.Match {
+	height: 150px;
+}
+
+.Object_2 {
+	margin-top: 25%;
+}
+
+.Match_02 {
+	height: 300px;
+}
+
+.Object_3 {
+	margin-top: 75%;
+}
+
+.Match_03 {
+	height: 600px;
+}
+
+.First:hover {
+	background-color: #f2a847; /* Orange background color /
+color: #292929; / Dark gray font color */
+	font-size: 30px;
+	border-radius: 6px;
+	padding: 5px;
+}
+
+.First {
+	background-color: #333; /* Orange background color */
+	color: #f2f2f2; /* Dark gray font color */
+	font-size: 30px;
+	border-radius: 6px;
+	padding: 5px;
+}
+
+label.number {
+	font-size: 30px;
+}
+
+.Link_Style {
+	margin-top: 10px;
+	color: #f2f2f2; /* Light gray font color */
+}
